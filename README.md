@@ -70,7 +70,7 @@ $ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
 ## Embedding Medium Feed: _retainable.app_ scripts
 **[Embed Your Medium Blog](https://www.retainable.app/embed-your-medium-blog)**
 ### How to embed
-Embedding is simple just place a <div> tag with your options as attributes wherever you want your feed to display and include one javascript file at the bottom of your page. Yup that's it. Nothing else. Simple.
+Embedding is simple just place a `<div>` tag with your options as attributes wherever you want your feed to display and include one javascript file at the bottom of your page. Yup that's it. Nothing else. Simple.
   
 ### It's open source
 Don't want to use the hosted version? You can grab the code from [github](https://github.com/chrisj74/vue-rss-blog).
