@@ -17,16 +17,7 @@ permalink: /people/
         </div>
     </div>
 </section>
-{% for person in site.people %}
-<div class="post-area">
-  <a href="{{ person.url | prepend: site.baseurl }}" class="bold">{{ person.name }}</a>
-  <p class="post-date">{{ person.project }}</p>
-  <p>
-    {{ person.description | strip_html | truncatewords: 50 }}
-  </p>
-</div>
-{% endfor %}
- 
+
 <!-- People Start -->
 <div id="team" class="section">
     <div class="container">
