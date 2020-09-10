@@ -11,7 +11,7 @@
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
 /*--
-	Common Css
+  Common Css
 --*/
 body {
   font-family: 'Open Sans', sans-serif;
@@ -57,15 +57,15 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
+   font-family: 'Volkhov', serif;
   font-style: italic;
-  color: #666;
+  color: #;
 }
 /*--
-	Header Start
+  Header Start
 --*/
 header {
-  background: #000;
+  background: #01050a;
   padding: 20px 0;
 }
 header .navbar {
@@ -83,21 +83,21 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #CDCDCD;
   padding: 10px 26px;
   font-size: 15px;
 }
-font header .navbar-default .navbar-nav li a:hover {
-  color: #fff;
-}
+/*font header .navbar-default .navbar-nav li a:hover {
+  color: #ffffff;
+}*/
 /*---------------------------------------------
-					Index Start
+           Index Start
 -----------------------------------------------*/
 /*--
-	Slider Start
+  Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg11.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -117,7 +117,7 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #01050a;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
