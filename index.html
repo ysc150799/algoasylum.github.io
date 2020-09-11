@@ -67,10 +67,10 @@ permalink: /
       <h2>LATEST BLOG</h2>
       <div class="post-area">
         {% assign latest_post = site.posts[0] %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-           <p class="post-date">{{ post.date | date_to_long_string }}</p>
+        <a href="{{ latest_post.url | prepend: site.baseurl }}" class="bold">{{ latest_post.title }}</a>
+           <p class="post-date">{{ latest_post.date | date_to_long_string }}</p>
            <p>
-            {{ post.content | strip_html | truncatewords: 50 }}
+            {{ latest_post.content | strip_html | truncatewords: 50 }}
            </p>
       </div>
       <a href="https://algoasylum.github.io/blog/" class="btn btn-view-works">View All</a>
