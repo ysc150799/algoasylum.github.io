@@ -67,7 +67,7 @@ permalink: /
       <h2>LATEST BLOG</h2>
       <div>
         {% assign latest_post = site.posts[0] %}
-        <a href="{{ latest_post.url | prepend: site.baseurl }}" class="bold">{{ latest_post.title }}</a>
+        <h3><a href="{{ latest_post.url | prepend: site.baseurl }}" class="bold">{{ latest_post.title }}</a></h3>
            <p class="post-date">{{ latest_post.date | date_to_long_string }}</p>
            <p>
             {{ latest_post.content | strip_html | truncatewords: 50 }}
