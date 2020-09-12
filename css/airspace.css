@@ -194,11 +194,11 @@
  }
  
  #service  .btn-view-works {
-   background: #111419;
+   
+   padding: 10px 20px;
+   text-align: center;background: #111419;
    border: 1.5px solid #9C4800;
    color: #9C4800;
-   padding: 10px 20px;
-   text-align: center;
    margin-top: 20px;
  }
  /*--
@@ -237,11 +237,11 @@
  }
  #call-to-action .btn-call-to-action {
    padding: 15px 35px;
-   border: none;
-   background-color: #fff;
    font-size: 15px;
-   color: #333333;
    margin-top: 30px;
+   background: #111419;
+   border: 1.5px solid #9C4800;
+   color: #9C4800;
  }
  /*--
    Feature Start
