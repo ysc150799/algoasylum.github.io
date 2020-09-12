@@ -12,6 +12,9 @@ keep_files:
   - ".git"
   - ".gitignore"
 
+# Setting up collections: https://jekyllrb.com/docs/collections/
+collections:
+- people
 
 # Site settings
 title: AlgoAsylum
