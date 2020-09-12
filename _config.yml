@@ -12,13 +12,13 @@ keep_files:
   - ".git"
   - ".gitignore"
 
-# Setting up collections: https://jekyllrb.com/docs/collections/
+# Setting up collections
 collections:
-  interns:
+  people:
     # output=true creates a rendered page for each document in collection
     output: true
     # override the global permalink in the collection (https://jekyllrb.com/docs/permalinks/#collections)
-    permalink: /:collection/:name
+    permalink: /:path
 
 # Site settings
 title: AlgoAsylum
