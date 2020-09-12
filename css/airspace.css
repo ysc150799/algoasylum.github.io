@@ -175,10 +175,12 @@
  }
  #service .service-item {
    padding-bottom: 30px;
+   border-radius: 8px;
+   border: 1.5px solid #000;
  }
  #service .service-item i {
    font-size: 60px;
-   color: #0f4c7f;
+   color: #4A4656;
  }
  #service .service-item h4 {
    padding-top: 20px;
@@ -191,6 +193,15 @@
    margin: 0;
    font-size: 14px;
    line-height: 1.8;
+ }
+ 
+ #service  .btn-view-works {
+   background: #fff;
+   border: 1.5px solid #000;
+   color: #000;
+   padding: 10px 20px;
+   text-align: center;
+   margin-top: 20px;
  }
  /*--
    call-to-action Start
