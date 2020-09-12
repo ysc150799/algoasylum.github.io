@@ -14,7 +14,11 @@ keep_files:
 
 # Setting up collections: https://jekyllrb.com/docs/collections/
 collections:
-- people
+  interns:
+    # output=true creates a rendered page for each document in collection
+    output: true
+    # override the global permalink in the collection (https://jekyllrb.com/docs/permalinks/#collections)
+    permalink: /:collection/:name
 
 # Site settings
 title: AlgoAsylum
