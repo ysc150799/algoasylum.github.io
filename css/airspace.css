@@ -28,6 +28,7 @@
  h2 {
    font-size: 30px;
    font-weight: 400;
+   color: #B55400
  }
  h3 {
    font-size: 28px;
@@ -65,7 +66,7 @@
    Header Start
  --*/
  header {
-   background: #fff;
+   background: #000;
    padding: 20px 0;
  }
  header .navbar {
@@ -83,7 +84,7 @@
    padding-top: 10px;
  }
  header .navbar-default .navbar-nav li a {
-   color: #333333;
+   color: #B55400;
    padding: 10px 26px;
    font-size: 15px;
  }
@@ -166,11 +167,13 @@
  #service {
    text-align: center;
    padding: 90px 0;
+   background: #09090c
  }
  #service .service-item {
    padding-bottom: 30px;
    border-radius: 8px;
-   border: 1.5px solid #000;
+   border: 1px solid #B55400;
+   background: #111419
  }
  #service .service-item i {
    font-size: 60px;
@@ -179,7 +182,7 @@
  #service .service-item h4 {
    padding-top: 20px;
    margin: 0;
-   color: #666;
+   color: #9C4800;
  }
  #service .service-item p {
    color: #888;
@@ -190,9 +193,9 @@
  }
  
  #service  .btn-view-works {
-   background: #fff;
-   border: 1.5px solid #000;
-   color: #000;
+   background: #111419;
+   border: 1.5px solid #9C4800;
+   color: #9C4800;
    padding: 10px 20px;
    text-align: center;
    margin-top: 20px;
@@ -243,7 +246,7 @@
    Feature Start
  --*/
  #feature {
-   background: url("../img/featue-bg.jpg");
+   background: url("../img/wall3.jpg");
    background-position: 50% 94px;
    width: 100%;
    display: block;
@@ -274,9 +277,12 @@
    margin-bottom: 20px;
  }
  #feature .btn-view-works {
-   background: #655E7A;
-   color: #fff;
-   padding: 10px 20px;
+    background: #111419;
+    border: 1.5px solid #9C4800;
+    color: #9C4800;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
  }
  
  /*--
