@@ -16,6 +16,7 @@
  body {
    font-family: 'Open Sans', sans-serif;
    -webkit-font-smoothing: antialiased;
+   background: #09090c;
  }
  h1,
  h2,
@@ -89,7 +90,7 @@
    font-size: 15px;
  }
  font header .navbar-default .navbar-nav li a:hover {
-   color: #000;
+   color: #EEEEEE;
  }
  /*---------------------------------------------
            Index Start
@@ -204,13 +205,13 @@
    call-to-action Start
  --*/
  #call-to-action {
-   background: url("../img/call-to-action-bg.jpg") no-repeat;
+   background: url("../img/wall1.jpg") no-repeat;
    background-size: cover;
    background-attachment: fixed;
    padding: 70px 0px;
    position: relative;
    text-align: center;
-   color: #fff;
+   color: #EEEEEE;
  }
  #call-to-action:before {
    content: "";
@@ -221,7 +222,7 @@
    bottom: 0;
    width: 100%;
    height: 100%;
-   background: #1d192c;
+   background: #040404;
    opacity: 0.8;
  }
  #call-to-action h2 {
@@ -291,6 +292,8 @@
  #people {
    margin-top: 75px;
    padding-bottom: 75px;
+   background: #09090c
+
  }
  #people .people-img {
    padding: 0px 50px;
@@ -812,7 +815,7 @@
    footer Start
  --*/
  footer {
-   background: #F5F5F5;
+   background: #000;
    text-align: center;
    padding-top: 48px;
    padding-bottom: 55px;
@@ -820,10 +823,10 @@
  footer p {
    font-size: 13px;
    line-height: 25px;
-   color: #919191;
+   color: #B55400;
  }
  footer a {
-   color: #595959;
+   color: #B55400;
  }
  footer .footer-manu {
    padding-bottom: 25px;
@@ -838,10 +841,10 @@
  }
  footer .footer-manu ul li a {
    display: inline-block;
-   color: #494949;
+   color: #B55400;
  }
  footer .footer-manu ul li a:hover {
-   color: #000;
+   color: #EEEEEE;
  }
  
  /*---------------------------------------------
