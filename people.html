@@ -29,7 +29,7 @@ permalink: /people/
                     <div class="people_img">
                       <img src={{ person.profile_picture }} alt="">
                     </div>
-                    <h4><a href="person.url"> {{ person.name }} </a></h4>
+                    <h4><a href={{ person.url }}> {{ person.name }} </a></h4>
                     <h5>{{ person.project }}</h5>
                     <p> 
                         {{ person.content | strip_html | truncatewords: 10 }} 
