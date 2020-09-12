@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Out Team
+title: Our Team
 permalink: /people/
 ---
 
-    <!-- Slider Start -->
+<!-- Slider Start -->
 <section id="global-header">
     <div class="container">
         <div class="row">
@@ -17,50 +17,27 @@ permalink: /people/
         </div>
     </div>
 </section>
- 
+
 <!-- People Start -->
 <div id="team" class="section">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-xs-11">
-                <div class="person">
-                    <div class="people_img">
-                      <img src="img/default.jfif" alt="">
-                    </div>
-                    <h4>Name</h4>
-                    <p>Description </p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-xs-11">
-                <div class="person">
-                    <div class="people_img">
-                      <img src="img/default.jfif" alt="">
-                    </div>
-                    <h4>Name</h4>
-                    <p>Description </p>
-                </div>
-            </div>
             
+            {% for person in site.people %}
             <div class="col-md-3 col-xs-11">
                 <div class="person">
                     <div class="people_img">
-                      <img src="img/default.jfif" alt="">
+                      <img src={{ person.profile_picture }} alt="">
                     </div>
-                    <h4>Name</h4>
-                    <p>Description </p>
+                    <h4><a href={{ person.url }}> {{ person.name }} </a></h4>
+                    <h5>{{ person.project }}</h5>
+                    <p> 
+                        {{ person.content | strip_html | truncatewords: 10 }} 
+                    </p>
                 </div>
-            </div>            
-
-            <div class="col-md-3 col-xs-11">
-                <div class="person">
-                    <div class="people_img">
-                      <img src="img/default.jfif" alt="">
-                    </div>
-                    <h4>Name</h4>
-                    <p>Description </p>
-                </div>
-            </div>            
+            </div>
+           {% endfor %}
+            
         </div>
     </div>
 </div>
