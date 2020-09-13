@@ -105,7 +105,7 @@
    Slider Start
  --*/
  #slider {
-   background: url("https://www.xmple.com/wallpaper/blue-grey-3d-cubes-white-1920x1080-c3-ffffff-696969-48d1cc-l-243-a-30-f-11.svg") no-repeat;
+   background: url("../img/slider-bg.svg") no-repeat;
    background-size: cover;
    background-attachment: fixed;
    background-position: 10% 0%;
@@ -145,31 +145,9 @@
  /*--
    wrapper Start
  --*/
- #intro {
-   padding: 100px 0;
-   background:#fff;
- }
- #intro .block h2 {
-   padding-top: 35px;
-   line-height: 27px;
-   margin: 0;
- }
- #intro .block p {
-   color: #7B7B7B;
-   padding-top: 20px;
- }
- #intro .block img {
-   padding-left: 40px;
-   width: 100%;
- }
- #intro .section-title {
-   margin-bottom: 0px;
- }
- #intro .section-title p {
-   padding-top: 20px;
- }
+ 
  /*--
-   service Start
+   Projects Start
  --*/
  #service {
    text-align: center;
@@ -258,7 +236,7 @@
    Feature Start
  --*/
  #feature {
-   background: url("file:///D:/CCOEW/AA%20Frontpage/img/latest-blog-bg.jpg")
+   background: url("../img/latest-blog-bg.jpg")
    background-position: 50% 94px;
    width: 100%;
    display: block;
@@ -341,7 +319,7 @@
  #blogs {
    padding: 100px 0;
  }
- #blogs .block h2 {
+ #blogs h2 {
    line-height: 27px;
    color: #080808;
    padding-top: 110px;
@@ -418,7 +396,7 @@
    Slider-work Start
  --*/
  #global-header {
-   background: url("../img/slider-bg.jpg") no-repeat;
+   background: url("../img/slider-bg.svg") no-repeat;
    background-size: cover;
    padding-top: 150px;
    padding-bottom: 107px;
@@ -667,7 +645,7 @@
    slider-contact Start
  --*/
  #slider-contact {
-   background: url("../img/slider-bg.jpg") no-repeat;
+   background: url("../img/slider-bg.svg") no-repeat;
    background-size: cover;
    padding-top: 150px;
    padding-bottom: 107px;
