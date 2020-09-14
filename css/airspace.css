@@ -67,7 +67,7 @@
    Header Start
  --*/
  header {
-   background: #696969;
+   background: #313232;
    padding: 20px 0;
  }
  header .navbar {
@@ -152,7 +152,7 @@
  #service {
    text-align: center;
    padding: 90px 0;
-   background: #596161;
+   background: #313232;
  }
  #service .service-item {
    padding-bottom: 30px;
