@@ -282,7 +282,7 @@
  #people {
    margin-top: 75px;
    padding-bottom: 75px;
-   background: #e6e9e9
+   background: #e6e9e9;
    text-align: center;
 
  }
@@ -322,7 +322,6 @@
  #blogs h2 {
    line-height: 27px;
    color: #080808;
-   padding-top: 110px;
  }
  #blogs .block p {
    padding-top: 50px;
