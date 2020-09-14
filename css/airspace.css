@@ -236,7 +236,7 @@
    Feature Start
  --*/
  #feature {
-   background: url("../img/latest-blog-bg.jpg")
+   background: url("../img/latest-blog-bg.jpg");
    background-position: 50% 94px;
    width: 100%;
    display: block;
