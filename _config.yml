@@ -15,13 +15,13 @@ keep_files:
 # Setting up collections
 collections:
   people:
-      # output=true creates a rendered page for each document in collection
-      output: true
-      # override the global permalink in the collection (https://jekyllrb.com/docs/permalinks/#collections)
-       permalink: /:path
+    # output=true creates a rendered page for each document in collection
+    output: true
+    # override the global permalink in the collection (https://jekyllrb.com/docs/permalinks/#collections)
+    permalink: /:path
   projects:
-      output: true
-      permalink: /:path
+    output: true
+    permalink: /:path
 
 # Site settings
 title: AlgoAsylum
