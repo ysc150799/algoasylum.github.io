@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: person
 name: Janhavi Sathe
 project: Air Pollution Monitoring
 github: janhavi-sathe
