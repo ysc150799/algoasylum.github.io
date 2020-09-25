@@ -44,6 +44,7 @@
    font-size: 15px;
    line-height: 28px;
    color: #90979c }
+
  ul {
    padding: 0;
    margin: 0;
@@ -328,7 +329,6 @@
    content Start
  --*/
  #blogs {
-   background-color: #09090c;
    padding: 100px 0;
  }
  #blogs .block h2 {
