@@ -28,7 +28,8 @@
    font-family: 'Roboto', sans-serif;
  }
  h1{
-    color:#1b262c;
+    color:#fff;
+    font-weight: 500;
  }
  h2 {
    font-size: 30px;
