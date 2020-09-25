@@ -19,7 +19,9 @@ collections:
     output: true
     # override the global permalink in the collection (https://jekyllrb.com/docs/permalinks/#collections)
     permalink: /:path
-    layout: page
+  projects:
+    output: true
+    permalink: /:path
 
 # Site settings
 title: AlgoAsylum
