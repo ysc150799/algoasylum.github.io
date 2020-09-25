@@ -241,6 +241,7 @@
    font-size: 14px;
    line-height: 1.6;
  }
+<<<<<<< HEAD
  #call-to-action .btn-call-to-action {
    padding: 15px 35px;
    font-size: 15px;
@@ -248,6 +249,68 @@
    background: #111419;
    border: 1.5px solid #9C4800;
    color: #9C4800;
+=======
+
+ #call-to-action .counter-box li {
+   width: 50%;
+   float: left;
+   text-align: center;
+   margin: 30px 0 30px;
+ }
+ #call-to-action .counter-box li i {
+   font-size: 35px;
+ }
+ #call-to-action .counter-box li h4 {
+   font-size: 30px;
+   font-weight: bold;
+ }
+ #call-to-action .counter-box li span {
+   color: #555;
+ }
+ #call-to-action .blogs-carousel {
+   text-align: center;
+   width: 75%;
+   border: 1px solid #DEDEDE;
+   padding: 24px;
+   margin: 0 auto;
+ }
+ #call-to-action .blogs-carousel img {
+   padding-bottom: 38px;
+ }
+ #call-to-action .blogs-carousel p {
+   line-height: 28px;
+   font-weight: 300;
+   padding-bottom: 20px;
+ }
+ #call-to-action .blogs-carousel .user img {
+   padding-bottom: 0px;
+   border-radius: 500px;
+ }
+ #call-to-action .blogs-carousel .user p {
+   padding-bottom: 0;
+   font-size: 12px;
+   line-height: 20px;
+   color: #353241;
+ }
+ #call-to-action .blogs-carousel .user p span {
+   display: block;
+   color: #353241;
+   font-weight: 600;
+ }
+ #call-to-action .blogs-carousel .owl-carousel .owl-pagination div {
+   border: 1px solid #1D1D1D;
+   border-radius: 500px;
+   display: inline-block;
+   height: 10px;
+   margin-right: 15px;
+   width: 10px;
+ }
+ #call-to-action .blogs-carousel .owl-carousel .owl-pagination div.active {
+   background: #5C5C5C;
+   font-size: 30px;
+   display: inline-block;
+   border: 0px;
+>>>>>>> dafddb7493446a80089797eb58a46668119bcde6
  }
  /*--
    Feature Start
@@ -325,6 +388,7 @@
  /*--
    content Start
  --*/
+<<<<<<< HEAD
  #blogs {
    background-color: #09090c;
    padding: 100px 0;
@@ -398,6 +462,9 @@
    display: inline-block;
    border: 0px;
  }
+=======
+
+>>>>>>> dafddb7493446a80089797eb58a46668119bcde6
  
  /*---------------------------------------------
            Work Start
