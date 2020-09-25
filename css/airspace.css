@@ -44,7 +44,6 @@
    font-size: 15px;
    line-height: 28px;
    color: #90979c }
-
  ul {
    padding: 0;
    margin: 0;
@@ -235,10 +234,8 @@
 
  }
  #call-to-action h2 {
-   padding-bottom: 20px;
-   line-height: 33px;
-   margin: 0;
-   font-size: 30px;
+    font-size: 28px;
+    font-weight: 600;
  }
  #call-to-action p {
    font-size: 14px;
@@ -251,13 +248,6 @@
    background: #111419;
    border: 1.5px solid #9C4800;
    color: #9C4800;
- }
-
-  #call-to-action .counter-box li {
-   width: 50%;
-   float: left;
-   text-align: center;
-   margin: 30px 0 30px;
  }
  /*--
    Feature Start
@@ -336,6 +326,7 @@
    content Start
  --*/
  #blogs {
+   background-color: #09090c;
    padding: 100px 0;
  }
  #blogs .block h2 {
