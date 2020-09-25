@@ -315,18 +315,19 @@
  }
  
  #people  .btn-view-works {
-   background: #3282b8;
-   color: #000;
-   padding: 10px 20px;
-   text-align: center;
-   margin-top: 20px;
+  background: #111419;
+  border: 1.5px solid #9C4800;
+  color: #9C4800;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 20px;
  }
  
  /*--
    content Start
  --*/
  #blogs {
-   background-color: #1b262c;
+   background-color: #09090c;
    padding: 100px 0;
  }
  #blogs .block h2 {
