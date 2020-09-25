@@ -44,6 +44,7 @@
    font-size: 15px;
    line-height: 28px;
    color: #90979c }
+
  ul {
    padding: 0;
    margin: 0;
@@ -234,22 +235,15 @@
 
  }
  #call-to-action h2 {
-    font-size: 28px;
-    font-weight: 600;
+   padding-bottom: 20px;
+   line-height: 33px;
+   margin: 0;
+   font-size: 30px;
  }
  #call-to-action p {
    font-size: 14px;
    line-height: 1.6;
  }
-<<<<<<< HEAD
- #call-to-action .btn-call-to-action {
-   padding: 15px 35px;
-   font-size: 15px;
-   margin-top: 30px;
-   background: #111419;
-   border: 1.5px solid #9C4800;
-   color: #9C4800;
-=======
 
  #call-to-action .counter-box li {
    width: 50%;
@@ -310,7 +304,6 @@
    font-size: 30px;
    display: inline-block;
    border: 0px;
->>>>>>> dafddb7493446a80089797eb58a46668119bcde6
  }
  /*--
    Feature Start
@@ -388,83 +381,7 @@
  /*--
    content Start
  --*/
-<<<<<<< HEAD
- #blogs {
-   background-color: #09090c;
-   padding: 100px 0;
- }
- #blogs .block h2 {
-   line-height: 27px;
-   color: #5C5C5C;
-   padding-top: 110px;
- }
- #blogs .block p {
-   padding-top: 50px;
-   color: #7B7B7B;
- }
- #blogs .counter-box li {
-   width: 50%;
-   float: left;
-   text-align: center;
-   margin: 30px 0 30px;
- }
- #blogs .counter-box li i {
-   font-size: 35px;
- }
- #blogs .counter-box li h4 {
-   font-size: 30px;
-   font-weight: bold;
- }
- #blogs .counter-box li span {
-   color: #555;
- }
- #blogs .blogs-carousel {
-   text-align: center;
-   width: 75%;
-   border: 1px solid #DEDEDE;
-   padding: 24px;
-   margin: 0 auto;
- }
- #blogs .blogs-carousel img {
-   padding-bottom: 38px;
- }
- #blogs .blogs-carousel p {
-   line-height: 28px;
-   font-weight: 300;
-   padding-bottom: 20px;
- }
- #blogs .blogs-carousel .user img {
-   padding-bottom: 0px;
-   border-radius: 500px;
- }
- #blogs .blogs-carousel .user p {
-   padding-bottom: 0;
-   font-size: 12px;
-   line-height: 20px;
-   color: #353241;
- }
- #blogs .blogs-carousel .user p span {
-   display: block;
-   color: #353241;
-   font-weight: 600;
- }
- #blogs .blogs-carousel .owl-carousel .owl-pagination div {
-   border: 1px solid #1D1D1D;
-   border-radius: 500px;
-   display: inline-block;
-   height: 10px;
-   margin-right: 15px;
-   width: 10px;
- }
- #blogs .blogs-carousel .owl-carousel .owl-pagination div.active {
-   background: #5C5C5C;
-   font-size: 30px;
-   display: inline-block;
-   border: 0px;
- }
-=======
 
->>>>>>> dafddb7493446a80089797eb58a46668119bcde6
  
  /*---------------------------------------------
            Work Start
@@ -945,4 +862,3 @@
    text-align: center;
    margin-bottom: 25px;
  }
- 
