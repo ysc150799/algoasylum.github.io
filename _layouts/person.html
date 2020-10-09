@@ -4,11 +4,15 @@ layout: page
 
 <div class="person">
   <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
+  <section>
     <div class="container">
       <div class="row">
         <div>
           <div class="block">
+            <aside>
+              <img id="profile-picture" src={{ page.profile_picture }} width="200" height="200">
+              <!-- <h4>Github: <a href="https://www.github.com/{{ page.github }}">{{ page.github }}</a> -->
+            </aside>
             <h1><a href="https://www.github.com/{{ page.github }}">{{ page.name }}</a></h1>
             <hr />
             <p>{{ content }}</p>
@@ -23,8 +27,4 @@ layout: page
       </div>
     </div>
   </section>
-  <aside>
-    <img id="profile-picture" src={{ page.profile_picture }} width="200" height="200">
-    <!-- <h4>Github: <a href="https://www.github.com/{{ page.github }}">{{ page.github }}</a> -->
- </aside>
 </div>
