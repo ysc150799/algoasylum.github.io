@@ -2,7 +2,11 @@
 layout: page
 ---
 
-<div class="post">
+<div class="person">
+  <aside>
+    <img id="profile-picture" src={{ page.profile_picture }}>
+    <h4>Github: <a href="https://www.github.com/{{ page.github }}">{{ page.github }}</a>
+  </aside>
   <!-- Wrapper Start -->
   <section id="intro" style="border: 1px dotted #ddd;">
     <div class="container">
