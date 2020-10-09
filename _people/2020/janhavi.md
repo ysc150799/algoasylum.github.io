@@ -3,7 +3,7 @@ layout: person
 name: Janhavi Sathe
 project: Air Pollution Monitoring
 github: janhavi-sathe
-profile_picture: "img/people/janhavi.jpg"
+profile_picture: "../../img/people/janhavi.jpg"
 ---
 I am a final year Electronics and Telecommunications student from Pune. I am working on the [Air Pollution Monitoring project](https://github.com/algoasylum/PollutionMonitoringKit_InitialSetupPackage). I am also a part of the team that made the first version of this website in 2020. Connect with me about any of my projects through my [LinkedIn](https://www.linkedin.com/in/janhavi-sathe/) and don't forget to introduce yourself! :D
 
