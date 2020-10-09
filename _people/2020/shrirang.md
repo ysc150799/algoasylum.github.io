@@ -3,7 +3,7 @@ layout: person
 name: Shrirang Karandikar
 project: 
 github: algoasylum
-profile_picture: "img/people/RRAJ4526.JPG"
+profile_picture: "/../../img/people/RRAJ4526.JPG"
 ---
 
 
